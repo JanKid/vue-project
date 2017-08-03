@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+html {
+    font-family: 'Microsoft Yahei','Hiragino Sans GB',"WenQuanYi Micro Hei",sans-serif,arial;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+ol,ul,menu{
+    list-style:none outside none
+}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,select,textarea,p,blockquote,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+    margin:0;
+    padding:0
+}
+address,caption,cite,code,dfn,em,i,th,var,optgroup{
+    font-style:normal;
+    font-weight:normal
+}
+input, button, select, textarea{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input[type=text],input[type=password]{
+    border: 1px solid #cad2e0;
+    border-radius: 3px;
+    height: 20px;
+    line-height: 24px;
+    &:hover{
+        border-color: #6bc3f8;
+    }
+}
+input[type=button],button{
+    cursor: pointer;
+}
+select,textarea{
+    border: 1px solid #cad2e0;
+    border-radius: 3px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+q, blockquote {
+    quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+}
+a img{
+    border: none;
+}
+a{
+    color: #009aff;
+    text-decoration: none;
+    outline: none;
+    &:hover{
+        color: #1b609b;
+        outline: none;
+        text-decoration: none;
+    }
+    &+a{
+        margin-left: 10px;
+    }
+}
+img{
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+p{
+    word-wrap: break-word;
+    font-size: 14px;
+}
+.pre-p{
+    width: 100%;
+    white-space: normal;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color: #afbdcc;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color: #afbdcc;
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color: #afbdcc;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color: #afbdcc;
+}
+
+html,body {
+    *,*:before,*:after {
+        box-sizing:border-box;
+    }
+}
